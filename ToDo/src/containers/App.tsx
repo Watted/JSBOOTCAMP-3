@@ -22,8 +22,7 @@ class App extends React.Component<{}, IAppState> {
                     <span>User name: </span>{this.state.name}
                 </div>
                 <br />
-
-                <ToDoList/>
+                <ToDoList />
             </div>
         );
     }
